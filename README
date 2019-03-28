@@ -1,0 +1,10 @@
+NOMORE
+======
+
+BUILD
+-----
+
+You need Go 1.12 to build.
+
+  go generate
+  go build -ldflags="-H windowsgui -s -w"
